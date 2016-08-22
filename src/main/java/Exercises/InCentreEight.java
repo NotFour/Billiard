@@ -11,10 +11,11 @@ public class InCentreEight extends Exercise {
     public int getKolvo() {
         return kolvo;
     }
-    public InCentreEight(MyPanel mp){
-        this.mp=mp;
 
-        mp.label.setText("Забить в центр 8 шаров");
+    public InCentreEight(MyPanel mp) {
+        this.mp = mp;
+
+        mp.label.setText("Забить в центр " + kolvo + " шаров");
         mp.buttonPopal.setVisible(true);
         mp.buttonNePopal.setVisible(true);
     }

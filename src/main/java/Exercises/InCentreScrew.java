@@ -12,12 +12,43 @@ public class InCentreScrew extends Exercise {
     private int kolvo = 0;
     private int needpopal = 0;
     private String typeVint;
+    private boolean norK = true;
 
     public InCentreScrew(MyPanel mp) {
         this.mp = mp;
-        mp.label.setText("Какой винт?");
-        mp.textField.setVisible(true);
-        mp.buttonNext.setVisible(true);
+        mp.label.setText("Выберите как считать ");
+        mp.nFromK.setVisible(true);
+        mp.kFromN.setVisible(true);
+    }
+
+    public InCentreScrew(MyPanel mp, boolean norK) {
+        this.mp = mp;
+        this.norK = norK;
+        mp.label.setText("Сколько шаров ");
+        mp.oneTen.setVisible(true);
+        mp.twoTen.setVisible(true);
+        mp.threeTen.setVisible(true);
+        mp.fourTen.setVisible(true);
+        mp.fiveTen.setVisible(true);
+        mp.sixTen.setVisible(true);
+        mp.sevenTen.setVisible(true);
+        mp.eightTen.setVisible(true);
+        mp.nineTen.setVisible(true);
+        mp.tenTen.setVisible(true);
+    }
+
+    public InCentreScrew(MyPanel mp, int kolvoOrNeedpopal) {
+        this.mp = mp;
+        if (norK) {
+            this.needpopal = kolvoOrNeedpopal;
+        } else {
+            this.kolvo = kolvoOrNeedpopal;
+        }
+        mp.label.setText("Выберите винт");
+        mp.prokat.setVisible(true);
+        mp.nakat.setVisible(true);
+        mp.clapshtos.setVisible(true);
+        mp.ottajka.setVisible(true);
     }
 
     public InCentreScrew(MyPanel mp, String typeVint) {
@@ -25,16 +56,13 @@ public class InCentreScrew extends Exercise {
         this.mp = mp;
 
         mp.label.setText("В середину " + typeVint);
-        mp.textField.setVisible(false);
-        mp.buttonNext.setVisible(false);
-
-        mp.buttonPopal.setBounds(0, 200, 480, 605);
+        mp.buttonPopal.setBounds(0, 200, 960, 405);
+        mp.buttonPopalNeTotVint.setBounds(960, 200, 960, 405);
+        mp.buttonNePopalTotVint.setBounds(0, 605, 960, 405);
+        mp.buttonNePopal.setBounds(960, 605, 960, 405);
         mp.buttonPopal.setVisible(true);
-        mp.buttonPopalNeTotVint.setBounds(480,200,480,605);
         mp.buttonPopalNeTotVint.setVisible(true);
-        mp.buttonNePopalTotVint.setBounds(960,200,480,605);
         mp.buttonNePopalTotVint.setVisible(true);
-        mp.buttonNePopal.setBounds(1440, 200, 480, 605);
         mp.buttonNePopal.setVisible(true);
     }
 

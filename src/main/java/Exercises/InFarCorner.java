@@ -12,10 +12,11 @@ public class InFarCorner extends Exercise {
     public int getKolvo() {
         return kolvo;
     }
-    public InFarCorner(MyPanel mp){
-        this.mp=mp;
 
-        mp.label.setText("Забить в дальний угол 8");
+    public InFarCorner(MyPanel mp) {
+        this.mp = mp;
+
+        mp.label.setText("Забить в дальний угол " + kolvo);
         mp.buttonPopal.setVisible(true);
         mp.buttonNePopal.setVisible(true);
     }
