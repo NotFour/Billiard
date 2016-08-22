@@ -243,7 +243,7 @@ public class MyPanel extends JPanel {
         buttonKickStrange.addActionListener(new ButtonListenerExercises(this));
         buttonInCentreScrew.addActionListener(new ButtonListenerExercises(this));
         buttonPopal.addActionListener(new ButtonListenerPopal(this));
-        buttonNePopal.addActionListener(new ButtonListenerNePopal(/*this*/));
+        buttonNePopal.addActionListener(new ButtonListenerNePopal(this));
         buttonPopalNeTotVint.addActionListener(new ButtonListenerPopalNeTotVint(/*this*/));
         buttonNePopalTotVint.addActionListener(new ButtonListenerNePopalTotVint(/*this*/));
         buttonIdeal.addActionListener(new ButtonListenerIdeal(/*this*/));

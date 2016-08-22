@@ -1,6 +1,7 @@
 package Exercises;
 
 import Graphics.MyPanel;
+import PlaceForMassive.MassivNePopal;
 
 public class InNearCorner extends Exercise {
     /**
@@ -14,7 +15,7 @@ public class InNearCorner extends Exercise {
 
     public InNearCorner(MyPanel mp) {
         this.mp = mp;
-
+        MassivNePopal.setLengthMassive(getKolvo());
         mp.label.setText("Забить в ближний угол " + kolvo);
         mp.buttonPopal.setVisible(true);
         mp.buttonNePopal.setVisible(true);

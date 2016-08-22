@@ -1,6 +1,7 @@
 package Exercises;
 
 import Graphics.MyPanel;
+import PlaceForMassive.MassivNePopal;
 
 public class InCentreEight extends Exercise {
     /**
@@ -13,6 +14,7 @@ public class InCentreEight extends Exercise {
     }
 
     public InCentreEight(MyPanel mp) {
+        MassivNePopal.setLengthMassive(getKolvo());
         this.mp = mp;
         this.setPopal(0);
         this.setNepopal(0);

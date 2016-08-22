@@ -45,7 +45,7 @@ public class FileForStatistic {
                 String s;
                 while ((s = in.readLine()) != null) {
                     sb.append(s);
-                    sb.append("\n");
+                    //sb.append("\n");
                 }
             } finally {
                 //Также не забываем закрыть файл
