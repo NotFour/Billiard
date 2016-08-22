@@ -21,6 +21,7 @@ public class ButtonListenerExercises implements ActionListener {
         mp.buttonInFarCorner.setVisible(false);
         mp.buttonKickStrange.setVisible(false);
         mp.buttonInCentreScrew.setVisible(false);
+        mp.buttonEndExercise.setVisible(true);
 
         if (e.getSource().equals(mp.buttonInCentreEight)) {
             new InCentreEight(this.mp);

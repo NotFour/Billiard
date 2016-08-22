@@ -70,6 +70,7 @@ public class MyPanel extends JPanel {
     public JTextField textField;
 
     public JLabel label;
+    public JLabel statistic;
 
     public Font font;
 
@@ -79,6 +80,7 @@ public class MyPanel extends JPanel {
 //40
         textField = new JTextField();
         label = new JLabel();
+        statistic = new JLabel();
         font = new Font("Arial", Font.PLAIN, 70);
         nakat = new JButton("Накат");
         prokat = new JButton("Прокат");
@@ -143,8 +145,8 @@ public class MyPanel extends JPanel {
         buttonNext.setFont(font);
         buttonStartTraining.setFont(font);
         buttonEndProgram.setFont(font);
-        textField.setFont(font);
         label.setFont(font);
+        statistic.setFont(font);
         buttonInCentreEight.setFont(font);
         buttonInNearCorner.setFont(font);
         buttonInFarCorner.setFont(font);
@@ -159,6 +161,7 @@ public class MyPanel extends JPanel {
         prokat.setFont(font);
         ottajka.setFont(font);
         clapshtos.setFont(font);
+        buttonEndExercise.setFont(font);
 
 
 //35
@@ -186,6 +189,7 @@ public class MyPanel extends JPanel {
         buttonStartTraining.setBounds(480, 270, 960, 540);
         buttonEndProgram.setBounds(1520, 1010, 400, 100);
         label.setBounds(600, 0, 960, 100);
+        statistic.setBounds(600,100,960,100);
         textField.setBounds(600, 100, 550, 100);
         buttonInCentreEight.setBounds(0, 200, 640, 405);
         buttonInNearCorner.setBounds(640, 200, 640, 405);
@@ -201,6 +205,8 @@ public class MyPanel extends JPanel {
         nakat.setBounds(960, 200, 960, 405);
         clapshtos.setBounds(0, 605, 960, 405);
         ottajka.setBounds(960, 605, 960, 405);
+        /*Размер окна 1920 1110*/
+        buttonEndExercise.setBounds(1020,1010,900,100);
 
 
 //34
@@ -236,13 +242,62 @@ public class MyPanel extends JPanel {
         buttonInFarCorner.addActionListener(new ButtonListenerExercises(this));
         buttonKickStrange.addActionListener(new ButtonListenerExercises(this));
         buttonInCentreScrew.addActionListener(new ButtonListenerExercises(this));
-        buttonPopal.addActionListener(new ButtonListenerPopal());
-        buttonNePopal.addActionListener(new ButtonListenerNePopal());
-        buttonPopalNeTotVint.addActionListener(new ButtonListenerPopalNeTotVint());
-        buttonNePopalTotVint.addActionListener(new ButtonListenerNePopalTotVint());
-        buttonIdeal.addActionListener(new ButtonListenerIdeal());
-
+        buttonPopal.addActionListener(new ButtonListenerPopal(this));
+        buttonNePopal.addActionListener(new ButtonListenerNePopal(/*this*/));
+        buttonPopalNeTotVint.addActionListener(new ButtonListenerPopalNeTotVint(/*this*/));
+        buttonNePopalTotVint.addActionListener(new ButtonListenerNePopalTotVint(/*this*/));
+        buttonIdeal.addActionListener(new ButtonListenerIdeal(/*this*/));
+        buttonEndExercise.addActionListener(new ButtonListenerEndExercise(this));
         //35
+
+        setVisible();
+
+        add(oneTen);
+        add(twoTen);
+        add(threeTen);
+        add(fourTen);
+        add(fiveTen);
+        add(sixTen);
+        add(sevenTen);
+        add(eightTen);
+        add(nineTen);
+        add(tenTen);
+        add(nFromK);
+        add(kFromN);
+        add(oneBort);
+        add(oneWithHalfBort);
+        add(twoBort);
+        add(twoWithHalfBort);
+        add(threeBort);
+        add(threeWithHalfBort);
+        add(fourBort);
+        add(fourWithHalfBort);
+        add(prokat);
+        add(nakat);
+        add(clapshtos);
+        add(ottajka);
+        add(buttonNext);
+        add(buttonStartTraining);
+        add(buttonEndProgram);
+        add(label);
+        add(statistic);
+        add(textField);
+        add(buttonInCentreEight);
+        add(buttonInNearCorner);
+        add(buttonInFarCorner);
+        add(buttonKickStrange);
+        add(buttonInCentreScrew);
+        add(buttonPopal);
+        add(buttonNePopal);
+        add(buttonPopalNeTotVint);
+        add(buttonNePopalTotVint);
+        add(buttonIdeal);
+        add(buttonEndExercise);
+
+
+
+    }
+    public void setVisible() {
         oneTen.setVisible(false);
         twoTen.setVisible(false);
         threeTen.setVisible(false);
@@ -282,48 +337,8 @@ public class MyPanel extends JPanel {
         buttonNePopalTotVint.setVisible(false);
         buttonIdeal.setVisible(false);
         label.setVisible(false);
-
-        add(oneTen);
-        add(twoTen);
-        add(threeTen);
-        add(fourTen);
-        add(fiveTen);
-        add(sixTen);
-        add(sevenTen);
-        add(eightTen);
-        add(nineTen);
-        add(tenTen);
-        add(nFromK);
-        add(kFromN);
-        add(oneBort);
-        add(oneWithHalfBort);
-        add(twoBort);
-        add(twoWithHalfBort);
-        add(threeBort);
-        add(threeWithHalfBort);
-        add(fourBort);
-        add(fourWithHalfBort);
-        add(prokat);
-        add(nakat);
-        add(clapshtos);
-        add(ottajka);
-        add(buttonNext);
-        add(buttonStartTraining);
-        add(buttonEndProgram);
-        add(label);
-        add(textField);
-        add(buttonInCentreEight);
-        add(buttonInNearCorner);
-        add(buttonInFarCorner);
-        add(buttonKickStrange);
-        add(buttonInCentreScrew);
-        add(buttonPopal);
-        add(buttonNePopal);
-        add(buttonPopalNeTotVint);
-        add(buttonNePopalTotVint);
-        add(buttonIdeal);
-
+        statistic.setVisible(false);
+        buttonEndExercise.setVisible(false);
         label.setText("Выберите упражнение");
-
     }
 }

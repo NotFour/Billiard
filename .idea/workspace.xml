@@ -1,22 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a75cfba9-a8c2-4359-98cc-14fe99776897" name="Default" comment="v1,1">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/ButtonListeners/ButtonListenerNorK.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/ButtonListeners/ButtonListenerEndProgram.class" afterPath="$PROJECT_DIR$/target/classes/ButtonListeners/ButtonListenerEndProgram.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/ButtonListeners/ButtonListenerStartTraining.class" afterPath="$PROJECT_DIR$/target/classes/ButtonListeners/ButtonListenerStartTraining.class" />
+    <list default="true" id="a75cfba9-a8c2-4359-98cc-14fe99776897" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/ButtonListeners/ButtonListenerEndExercise.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/ButtonListeners/ButtonListenerExercises.class" afterPath="$PROJECT_DIR$/target/classes/ButtonListeners/ButtonListenerExercises.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/ButtonListeners/ButtonListenerPopal.class" afterPath="$PROJECT_DIR$/target/classes/ButtonListeners/ButtonListenerPopal.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/Exercises/Exercise.class" afterPath="$PROJECT_DIR$/target/classes/Exercises/Exercise.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/Exercises/InCentreEight.class" afterPath="$PROJECT_DIR$/target/classes/Exercises/InCentreEight.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/Exercises/InFarCorner.class" afterPath="$PROJECT_DIR$/target/classes/Exercises/InFarCorner.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/Exercises/InNearCorner.class" afterPath="$PROJECT_DIR$/target/classes/Exercises/InNearCorner.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/Exercises/InCentreScrew.class" afterPath="$PROJECT_DIR$/target/classes/Exercises/InCentreScrew.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/Exercises/KickStrange.class" afterPath="$PROJECT_DIR$/target/classes/Exercises/KickStrange.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/Graphics/MyPanel.class" afterPath="$PROJECT_DIR$/target/classes/Graphics/MyPanel.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/ButtonListeners/ButtonListenerEndProgram.java" afterPath="$PROJECT_DIR$/src/main/java/ButtonListeners/ButtonListenerEndProgram.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/ButtonListeners/ButtonListenerStartTraining.java" afterPath="$PROJECT_DIR$/src/main/java/ButtonListeners/ButtonListenerStartTraining.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/ButtonListeners/ButtonListenerExercises.java" afterPath="$PROJECT_DIR$/src/main/java/ButtonListeners/ButtonListenerExercises.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/ButtonListeners/ButtonListenerPopal.java" afterPath="$PROJECT_DIR$/src/main/java/ButtonListeners/ButtonListenerPopal.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/Exercises/Exercise.java" afterPath="$PROJECT_DIR$/src/main/java/Exercises/Exercise.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/Exercises/InCentreEight.java" afterPath="$PROJECT_DIR$/src/main/java/Exercises/InCentreEight.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/Exercises/InCentreScrew.java" afterPath="$PROJECT_DIR$/src/main/java/Exercises/InCentreScrew.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/Exercises/InFarCorner.java" afterPath="$PROJECT_DIR$/src/main/java/Exercises/InFarCorner.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/Exercises/InNearCorner.java" afterPath="$PROJECT_DIR$/src/main/java/Exercises/InNearCorner.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/Exercises/KickStrange.java" afterPath="$PROJECT_DIR$/src/main/java/Exercises/KickStrange.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/Graphics/MyPanel.java" afterPath="$PROJECT_DIR$/src/main/java/Graphics/MyPanel.java" />
     </list>
     <ignored path="Billiard.iws" />
@@ -40,41 +38,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="600">
-      <file leaf-file-name="MyPanel.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="MyPanel.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/Graphics/MyPanel.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="111">
-              <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+            <state relative-caret-position="509">
+              <caret line="341" column="45" selection-start-line="341" selection-start-column="45" selection-end-line="341" selection-end-column="45" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ButtonListenerStartTraining.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/ButtonListeners/ButtonListenerStartTraining.java">
+      <file leaf-file-name="ButtonListenerEndExercise.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/ButtonListeners/ButtonListenerEndExercise.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="192">
-              <caret line="11" column="12" selection-start-line="11" selection-start-column="12" selection-end-line="11" selection-end-column="12" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="KickStrange.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/Exercises/KickStrange.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="192">
-              <caret line="37" column="15" selection-start-line="37" selection-start-column="15" selection-end-line="37" selection-end-column="15" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="InCentreScrew.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/Exercises/InCentreScrew.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="192">
-              <caret line="41" column="16" selection-start-line="41" selection-start-column="16" selection-end-line="41" selection-end-column="16" />
+            <state relative-caret-position="495">
+              <caret line="15" column="1" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
               <folding />
             </state>
           </provider>
@@ -83,28 +61,38 @@
       <file leaf-file-name="InCentreEight.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/Exercises/InCentreEight.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="438">
-              <caret line="18" column="40" selection-start-line="18" selection-start-column="40" selection-end-line="18" selection-end-column="40" />
+            <state relative-caret-position="212">
+              <caret line="15" column="21" selection-start-line="15" selection-start-column="21" selection-end-line="15" selection-end-column="21" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ButtonListenerKolvoBortsAndVints.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/ButtonListeners/ButtonListenerKolvoBortsAndVints.java">
+      <file leaf-file-name="Exercise.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Exercises/Exercise.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-651">
-              <caret line="26" column="35" selection-start-line="26" selection-start-column="35" selection-end-line="26" selection-end-column="35" />
+            <state relative-caret-position="330">
+              <caret line="10" column="44" selection-start-line="10" selection-start-column="44" selection-end-line="10" selection-end-column="44" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ButtonListenerKolvoBalls.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/ButtonListeners/ButtonListenerKolvoBalls.java">
+      <file leaf-file-name="ButtonListenerExercises.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/ButtonListeners/ButtonListenerExercises.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2013">
-              <caret line="89" column="9" selection-start-line="89" selection-start-column="9" selection-end-line="89" selection-end-column="9" />
+            <state relative-caret-position="363">
+              <caret line="23" column="44" selection-start-line="23" selection-start-column="44" selection-end-line="23" selection-end-column="44" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ButtonListenerPopal.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/ButtonListeners/ButtonListenerPopal.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="443">
+              <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -142,11 +130,9 @@
         <option value="$PROJECT_DIR$/src/main/java/Graphics.java" />
         <option value="$PROJECT_DIR$/src/main/java/Graphics/MainForm.java" />
         <option value="$PROJECT_DIR$/src/main/java/ButtonListeners/ButtonListenerPopalNeTotVint.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ButtonListeners/ButtonListenerPopal.java" />
         <option value="$PROJECT_DIR$/src/main/java/ButtonListeners/ButtonListenerNePopalTotVint.java" />
         <option value="$PROJECT_DIR$/src/main/java/ButtonListeners/ButtonListenerNePopal.java" />
         <option value="$PROJECT_DIR$/src/main/java/ButtonListeners/ButtonListenerIdeal.java" />
-        <option value="$PROJECT_DIR$/src/main/java/Exercises/Exercise.java" />
         <option value="$PROJECT_DIR$/src/main/java/ButtonListeners/ButtonListenerNext.java" />
         <option value="$PROJECT_DIR$/src/main/java/ForFiles/FileWriter.java" />
         <option value="$PROJECT_DIR$/src/main/java/PackageForFileName.java" />
@@ -156,16 +142,19 @@
         <option value="$PROJECT_DIR$/src/main/java/ForFiles/FileForStatistic.java" />
         <option value="$PROJECT_DIR$/src/main/java/Exercises/InNearCorner.java" />
         <option value="$PROJECT_DIR$/src/main/java/Exercises/InFarCorner.java" />
-        <option value="$PROJECT_DIR$/src/main/java/Exercises/InCentreEight.java" />
         <option value="$PROJECT_DIR$/src/main/java/ButtonListeners/ButtonListenerStartTraining.java" />
         <option value="$PROJECT_DIR$/src/main/java/ButtonListeners/ButtonListenerEndProgram.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ButtonListeners/ButtonListenerExercises.java" />
         <option value="$PROJECT_DIR$/src/main/java/ButtonListeners/ButtonListenerNorK.java" />
         <option value="$PROJECT_DIR$/src/main/java/ButtonListeners/ButtonListenerKolvoBalls.java" />
         <option value="$PROJECT_DIR$/src/main/java/ButtonListeners/ButtonListenerKolvoBortsAndVints.java" />
         <option value="$PROJECT_DIR$/src/main/java/Exercises/KickStrange.java" />
         <option value="$PROJECT_DIR$/src/main/java/Exercises/InCentreScrew.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Exercises/Exercise.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Exercises/InCentreEight.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ButtonListeners/ButtonListenerPopal.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ButtonListeners/ButtonListenerExercises.java" />
         <option value="$PROJECT_DIR$/src/main/java/Graphics/MyPanel.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ButtonListeners/ButtonListenerEndExercise.java" />
       </list>
     </option>
   </component>
@@ -888,12 +877,27 @@
       <workItem from="1471861609236" duration="543000" />
       <workItem from="1471869384122" duration="657000" />
       <workItem from="1471870309196" duration="3997000" />
-      <workItem from="1471875364677" duration="7202000" />
+      <workItem from="1471875364677" duration="9890000" />
     </task>
+    <task id="LOCAL-00001" summary="v1,1">
+      <created>1471884553148</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1471884553148</updated>
+    </task>
+    <task id="LOCAL-00002" summary="v1,2">
+      <created>1471884670954</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1471884670954</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="37855000" />
+    <option name="totallyTimeSpent" value="40543000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-11" y="-11" width="1942" height="1166" extended-state="6" />
@@ -901,17 +905,17 @@
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32792208" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32792208" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295562" sideWeight="0.5021834" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.18831168" sideWeight="0.4978166" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18831168" sideWeight="0.4978166" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32900432" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.30021834" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.27620086" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -957,7 +961,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="v1,1" />
-    <option name="LAST_COMMIT_MESSAGE" value="v1,1" />
+    <MESSAGE value="v1,2" />
+    <option name="LAST_COMMIT_MESSAGE" value="v1,2" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -968,21 +973,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/ForFiles/FileForStatistic.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="8" column="18" selection-start-line="8" selection-start-column="18" selection-end-line="8" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ButtonListeners/ButtonListenerExercises.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1221">
-          <caret line="37" column="37" selection-start-line="37" selection-start-column="37" selection-end-line="37" selection-end-column="37" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Exercises/KickStrange.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="858">
@@ -1172,35 +1162,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ForFiles/FileForStatistic.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="447">
-          <caret line="48" column="17" selection-start-line="48" selection-start-column="17" selection-end-line="48" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Exercises/InNearCorner.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="10" column="27" selection-start-line="10" selection-start-column="27" selection-end-line="10" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Exercises/InFarCorner.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="429">
-          <caret line="13" column="5" selection-start-line="13" selection-start-column="5" selection-end-line="13" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/ButtonListeners/ButtonListenerPopalNeTotVint.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="231">
-          <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ButtonListeners/ButtonListenerPopal.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="231">
           <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
@@ -1235,25 +1197,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/PackageDate/GetTimeStartOrEnd.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/ButtonListeners/ButtonListenerEndProgram.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="476">
           <caret line="16" column="9" selection-start-line="16" selection-start-column="9" selection-end-line="16" selection-end-column="9" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Exercises/Exercise.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="33">
-          <caret line="8" column="11" selection-start-line="8" selection-start-column="11" selection-end-line="8" selection-end-column="11" />
           <folding />
         </state>
       </provider>
@@ -1266,14 +1213,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ButtonListeners/ButtonListenerExercises.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="34" column="22" selection-start-line="34" selection-start-column="22" selection-end-line="34" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/ButtonListeners/ButtonListenerNorK.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-62">
@@ -1282,18 +1221,26 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Exercises/InCentreEight.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/ButtonListeners/ButtonListenerStartTraining.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="438">
-          <caret line="18" column="40" selection-start-line="18" selection-start-column="40" selection-end-line="18" selection-end-column="40" />
+        <state relative-caret-position="-6">
+          <caret line="11" column="12" selection-start-line="11" selection-start-column="12" selection-end-line="11" selection-end-column="12" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ButtonListeners/ButtonListenerKolvoBalls.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/ForFiles/FileForStatistic.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2013">
-          <caret line="89" column="9" selection-start-line="89" selection-start-column="9" selection-end-line="89" selection-end-column="9" />
+        <state relative-caret-position="375">
+          <caret line="38" column="13" selection-start-line="38" selection-start-column="13" selection-end-line="38" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/PackageDate/GetTimeStartOrEnd.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="231">
+          <caret line="7" column="36" selection-start-line="7" selection-start-column="36" selection-end-line="7" selection-end-column="36" />
           <folding />
         </state>
       </provider>
@@ -1306,34 +1253,98 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ButtonListeners/ButtonListenerStartTraining.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/ButtonListeners/ButtonListenerKolvoBalls.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="192">
-          <caret line="11" column="12" selection-start-line="11" selection-start-column="12" selection-end-line="11" selection-end-column="12" />
+        <state relative-caret-position="2013">
+          <caret line="89" column="9" selection-start-line="89" selection-start-column="9" selection-end-line="89" selection-end-column="9" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Exercises/KickStrange.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="192">
+        <state relative-caret-position="-354">
           <caret line="37" column="15" selection-start-line="37" selection-start-column="15" selection-end-line="37" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Exercises/InNearCorner.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="10" column="27" selection-start-line="10" selection-start-column="27" selection-end-line="10" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Exercises/InFarCorner.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="429">
+          <caret line="13" column="5" selection-start-line="13" selection-start-column="5" selection-end-line="13" selection-end-column="5" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Exercises/InCentreScrew.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="192">
+        <state relative-caret-position="-231">
           <caret line="41" column="16" selection-start-line="41" selection-start-column="16" selection-end-line="41" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ButtonListeners/ButtonListenerPopal.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="443">
+          <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ButtonListeners/ButtonListenerExercises.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="363">
+          <caret line="23" column="44" selection-start-line="23" selection-start-column="44" selection-end-line="23" selection-end-column="44" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Java/jdk8/src.zip!/java/awt/Component.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="1431" column="19" selection-start-line="1431" selection-start-column="19" selection-end-line="1431" selection-end-column="19" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Graphics/MyPanel.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="111">
-          <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+        <state relative-caret-position="509">
+          <caret line="341" column="45" selection-start-line="341" selection-start-column="45" selection-end-line="341" selection-end-column="45" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Exercises/InCentreEight.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="212">
+          <caret line="15" column="21" selection-start-line="15" selection-start-column="21" selection-end-line="15" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Exercises/Exercise.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="10" column="44" selection-start-line="10" selection-start-column="44" selection-end-line="10" selection-end-column="44" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ButtonListeners/ButtonListenerEndExercise.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="495">
+          <caret line="15" column="1" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
           <folding />
         </state>
       </provider>
